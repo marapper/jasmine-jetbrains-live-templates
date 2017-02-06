@@ -6,6 +6,8 @@ Jasmine is "a behavior-driven development (BDD) testing framework for JavaScript
 
 Live templates are abbreviations that are expanded into code fragments that you use to insert frequently-used code into your source. Live templates are a huge productivity boost, especially when constructing unit-tests where you find yourself repetitively creating suites and specs. Live Templates are available in all JetBrains IDEs including IntelliJ, PyCharm, WebStorm, PhpStorm and RubyMine.
 
+*Use ES6 arrow functions*.
+
 ###Why These Are Different
 
 There are other Jasmine live templates out there but with these we have simplified the act of remembering the abbreviations used as the expansion characters for the code fragment. Generally, you start with *j* for **J**asmine, then use the humps in the [camel-case](http://en.wikipedia.org/wiki/CamelCase) Jasmine function or Jasmine matcher name.

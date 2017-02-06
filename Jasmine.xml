@@ -4,7 +4,7 @@
 	https://github.com/gbritting/jasmine-jetbrains-live-templates
 -->
 <templateSet group="Jasmine">
-  <template name="jit" value="it('$IT$', function () {&#10;    $END$&#10;});" description="Jasmine spec" toReformat="false" toShortenFQNames="true">
+  <template name="jit" value="it('$IT$', () =&gt; {&#10;    $END$&#10;});" description="Jasmine spec" toReformat="false" toShortenFQNames="true">
     <variable name="IT" expression="" defaultValue="&quot;spec title&quot;" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
@@ -25,7 +25,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="jits" value="it('should $IT$', function () {&#10;    $END$&#10;});" description="Jasmine spec with should" toReformat="false" toShortenFQNames="true">
+  <template name="jits" value="it('should $IT$', () =&gt; {&#10;    $END$&#10;});" description="Jasmine spec with should" toReformat="false" toShortenFQNames="true">
     <variable name="IT" expression="" defaultValue="&quot;spec title&quot;" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
@@ -46,7 +46,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="jdes" value="describe('$DESCRIBE$', function () {&#10;    $END$&#10;});" description="Jasmine suite" toReformat="false" toShortenFQNames="true">
+  <template name="jdes" value="describe('$DESCRIBE$', () =&gt; {&#10;    $END$&#10;});" description="Jasmine suite" toReformat="false" toShortenFQNames="true">
     <variable name="DESCRIBE" expression="" defaultValue="&quot;suite title&quot;" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
@@ -585,7 +585,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="jbe" value="beforeEach(function () {&#10;    $END$&#10;});" description="Jasmine setup (beforeEach)" toReformat="false" toShortenFQNames="true">
+  <template name="jbe" value="beforeEach(() =&gt; {&#10;    $END$&#10;});" description="Jasmine setup (beforeEach)" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
@@ -605,7 +605,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="jae" value="afterEach(function () {&#10;    $END$&#10;});" description="Jasmine teardown (afterEach)" toReformat="false" toShortenFQNames="true">
+  <template name="jae" value="afterEach(() =&gt; {&#10;    $END$&#10;});" description="Jasmine teardown (afterEach)" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
